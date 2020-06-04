@@ -1,19 +1,14 @@
 {
-  "name": "morgan",
-  "description": "HTTP request logger middleware for node.js",
+  "name": "morgan-objects",
+  "description": "HTTP request logger middleware for node.js - with objects",
   "version": "1.10.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
   ],
   "license": "MIT",
-  "keywords": [
-    "express",
-    "http",
-    "logger",
-    "middleware"
-  ],
-  "repository": "expressjs/morgan",
+  "keywords": ["express", "http", "logger", "middleware"],
+  "repository": "ryanm/morgan",
   "dependencies": {
     "basic-auth": "~2.0.1",
     "debug": "2.6.9",
@@ -34,12 +29,7 @@
     "split": "1.0.1",
     "supertest": "4.0.2"
   },
-  "files": [
-    "LICENSE",
-    "HISTORY.md",
-    "README.md",
-    "index.js"
-  ],
+  "files": ["LICENSE", "HISTORY.md", "README.md", "index.js"],
   "engines": {
     "node": ">= 0.8.0"
   },
